@@ -40,62 +40,39 @@ function generarFirmaHTML(data: SignatureData): string {
                     <span style="background-color:#FFD93D;color:#333333;padding-top:7px;padding-right:10px;padding-bottom:7px;padding-left:10px;border-radius:50px;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;">${cargo}</span>
                   </p>
 
-                  <!-- CERTIFICADOS -->
-      <tr>
-        <td style="border-top:0px solid #ddd;padding:5px 0px 5px 0px" colspan="4">
-          <table cellspacing="0" cellpadding="0" border="0" width="100%">
-            <tbody>
-              <tr>
-                <td style="width:25%;text-align:center;vertical-align:middle;padding:5px">
-                 <a href="https://distripen.com/content/151-certificado-iso9001" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/EQA.png" alt="EQA" style="height:50px;width:auto;max-width:100%;display:block;margin:0 auto;">
-                  </a>
-                </td>
-                <td style="width:25%;text-align:center;vertical-align:middle;padding:5px">
-                  <a href="https://distripen.com/content/147-certifiacion-fenalco" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/Fenalco.png" alt="Fenalco Solidario" style="height:35px;width:auto;max-width:100%;display:block;margin:0 auto;">
-                  </a>
-                </td>
-                <td style="width:25%;text-align:center;vertical-align:middle;padding:5px">
-                  <a href="https://distripen.com/content/152-certificado-smeta" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/Smeta.png" alt="SMETA" style="height:30px;width:auto;max-width:100%;display:block;margin:0 auto;">
-                  </a>
-                </td>
-                <td style="width:25%;text-align:center;vertical-align:middle;padding:5px">
-                  <a href="https://distripen.com/content/153-certificado-ecovadis" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/ecovadis.png" alt="Ecovadis" style="height:21px;width:auto;max-width:100%;display:block;margin:0 auto;">
-                  </a>
-                </td>
-              </tr>
-              <tr>
-                <td style="text-align:center;vertical-align:center;padding:0px">
-                  <p style="font-size:0.8rem;color:#6d6d6d;margin:0px 0px 5px">
-                    <b><font face="arial, sans-serif">ISO 9001 Calidad
-                  </font></b></p>
-                  
-                </td>
-                <td style="text-align:center;vertical-align:middle;padding:0px">
-                  <p style="font-size:0.8rem;color:#6d6d6d;margin:0px 0px 5px">
-                    <b><font face="arial, sans-serif">Carbono Neutro
-                  </font></b></p>
-                  
-                </td>
-                <td style="text-align:center;vertical-align:middle;padding:0px">
-                  <p style="font-size:0.8rem;color:#6d6d6d;margin:0px 0px 5px">
-                    <b><font face="arial, sans-serif">Comercio Ético                
-                  </font></b></p>
-                </td>
-                <td style="text-align:center;vertical-align:middle;padding:0px">
-                  <p style="font-size:0.8rem;color:#6d6d6d;margin:0px 0px 5px">
-                    <b><font face="arial, sans-serif">Sostenibilidad y <br>Resp. Social
-                  </font></b></p>
-                </td>
-              </tr>
-              
-            </tbody>
-          </table>
-        </td>
-      </tr>
+                  <!-- CONTACTO -->
+                  <table cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                      <tr>
+                        <td style="padding-top:2px;padding-right:8px;padding-bottom:2px;padding-left:0;vertical-align:middle;">
+                          <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/icono-whatsapp.png" alt="Celular" width="24">
+                        </td>
+                        <td style="padding-top:2px;padding-right:0;padding-bottom:2px;padding-left:0;vertical-align:middle;">
+                          <span style="font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#212121;">${telefono} | (601) 482 4377</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top:2px;padding-right:8px;padding-bottom:2px;padding-left:0;vertical-align:middle;">
+                          <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/icono-ubicacion.png" alt="Ubicación" width="21">
+                        </td>
+                        <td style="padding-top:2px;padding-right:0;padding-bottom:2px;padding-left:0;vertical-align:middle;">
+                          <a style="color:#212121;text-decoration:none;" href="https://maps.app.goo.gl/BgW6YaRzJY255meK7" target="_blank">
+                            <span style="font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#212121;">Carrera 68H No. 65 - 32, Bogotá</span>
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding-top:2px;padding-right:8px;padding-bottom:2px;padding-left:0;vertical-align:middle;">
+                          <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/icono-web.png" alt="Página web" width="24">
+                        </td>
+                        <td style="padding-top:2px;padding-right:0;padding-bottom:2px;padding-left:0;vertical-align:middle;">
+                          <a style="color:#212121;text-decoration:none;" href="http://www.distripen.com/" target="_blank">
+                            <span style="font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#212121;">www.distripen.com</span>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                   <!-- REDES -->
                   <table cellspacing="0" cellpadding="0" border="0" style="margin-top:15px;margin-right:0;margin-bottom:0;margin-left:0;border-collapse:collapse;">
                     <tbody>
