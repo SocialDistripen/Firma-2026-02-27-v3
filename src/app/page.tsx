@@ -278,7 +278,7 @@ export default function Home() {
   const campos = [
     {
       name: "nombre",
-      label: "Nombre completo de la asesora",
+      label: "Nombre completo del asesor comercial",
       placeholder: "Ej: Ana María Arias",
       required: true,
       type: "text",
@@ -292,8 +292,8 @@ export default function Home() {
     },
     {
       name: "telefono",
-      label: "Teléfono / WhatsApp",
-      placeholder: "Ej: 310 674 9048 | (601) 482 4377",
+      label: "WhatsApp",
+      placeholder: "Ej: 310 000 0000",
       required: false,
       type: "text",
     },
@@ -317,7 +317,7 @@ export default function Home() {
         />
         <h1 className="text-2xl font-bold text-gray-800">Generador de Firma de Correo</h1>
         <p className="text-gray-700 text-sm mt-1">
-          Llena los datos de la asesora, previsualiza y copia la firma con un clic
+          Llena los datos, previsualiza y copia la firma con un clic
         </p>
       </div>
 
@@ -347,7 +347,7 @@ export default function Home() {
           <div className="mt-5 bg-blue-50 border border-blue-200 rounded-lg p-3 text-xs text-blue-700">
             <strong>💡 Tip:</strong> El logo de Distripen, los certificados, banners y aviso legal
             se incluyen automáticamente en todas las firmas. Solo necesitas cambiar los datos
-            personales de cada asesora.
+            personales.
           </div>
 
           {!camposRequeridos && (
