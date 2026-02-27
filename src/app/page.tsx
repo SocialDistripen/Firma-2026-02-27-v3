@@ -34,7 +34,7 @@ function generarFirmaHTML(data: SignatureData): string {
                 <!-- DATOS -->
                 <td style="width:33%;padding-top:0;padding-right:10px;padding-bottom:0;padding-left:10px;vertical-align:middle;">
                   <p style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;">
-                    <span style="font-family:'Arial Black','Arial Bold',Gadget,sans-serif;font-size:18px;font-weight:900;color:#333333;display:block;">${nombre}</span>
+                    <span style="font-family:'Arial Black','Arial Bold',Gadget,sans-serif;font-size:22px;font-weight:900;color:#333333;display:block;">${nombre}</span>
                   </p>
                   <p style="margin-top:4px;margin-right:0;margin-bottom:0;margin-left:0;">
                     <span style="background-color:#FFD93D;color:#333333;padding-top:7px;padding-right:10px;padding-bottom:7px;padding-left:10px;border-radius:50px;display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;">${cargo}</span>
