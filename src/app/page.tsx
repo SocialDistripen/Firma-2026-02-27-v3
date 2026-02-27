@@ -112,9 +112,9 @@ function generarFirmaHTML(data: SignatureData): string {
           <table cellspacing="0" cellpadding="0" border="0" width="100%">
             <tbody>
               <tr>
-                <td style="width:25%;text-align:center;vertical-align:top;padding:5px">
+                <td style="width:25%;text-align:center;vertical-align:top;padding-left:10px">
                   <a href="https://distripen.com/content/151-certificado-iso9001" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/EQA.png" alt="EQA" style="height:50px;width:auto;max-width:100%;display:block;margin:0 auto;">
+                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/EQA.png" alt="EQA" style="height:auto;width:50px;max-width:100%;display:block;margin:0 auto;">
                   </a>
                 </td>
                 <td style="width:25%;text-align:center;vertical-align:middle;padding:5px">
