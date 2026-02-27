@@ -114,22 +114,22 @@ function generarFirmaHTML(data: SignatureData): string {
               <tr>
                 <td style="width:25%;text-align:center;vertical-align:top;padding:5px">
                   <a href="https://distripen.com/content/151-certificado-iso9001" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/EQA.png" width="30%" alt="EQA" style="height:auto">
+                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/EQA.png" alt="EQA" style="height:50px;width:auto;max-width:100%;display:block;margin:0 auto;">
                   </a>
                 </td>
                 <td style="width:25%;text-align:center;vertical-align:middle;padding:5px">
                   <a href="https://distripen.com/content/147-certifiacion-fenalco" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/Fenalco.png" alt="Fenalco Solidario" height="36px" style="width:auto">
+                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/Fenalco.png" alt="Fenalco Solidario" style="height:35px;width:auto;max-width:100%;display:block;margin:0 auto;">
                   </a>
                 </td>
                 <td style="width:25%;text-align:center;vertical-align:middle;padding:5px">
                   <a href="https://distripen.com/content/152-certificado-smeta" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/Smeta.png" alt="SMETA" height="30px" style="width:auto">
+                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/Smeta.png" alt="SMETA" style="height:30px;width:auto;max-width:100%;display:block;margin:0 auto;">
                   </a>
                 </td>
                 <td style="width:25%;text-align:center;vertical-align:middle;padding:0px">
                   <a href="https://distripen.com/content/153-certificado-ecovadis" target="_blank" rel="noopener noreferrer">
-                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/ecovadis.png" alt="Ecovadis" height="25px" style="width:auto">
+                  <img src="https://distripen.com/img/cms/Firma%20Asesores%202025/ecovadis.png" alt="Ecovadis" style="height:21px;width:auto;max-width:100%;display:block;margin:0 auto;">
                   </a>
                 </td>
               </tr>
